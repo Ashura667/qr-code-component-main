@@ -1,31 +1,42 @@
-html, body {
-    height: 100%;
-  }
-.card 
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: hsl(220, 15%, 55%);
-    height: 100%;
-    
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
+html,
+body {
+  height: 100%;
 }
-.image_qr_code 
-{
-    width: 400px;
-    height: auto;
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(220, 15%, 55%);
+  height: 100%;
 }
-.background_card 
-{
-    background-color: hsl(212, 45%, 89%);
-    width: 450px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
+.image_qr_code {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.text_ajustment {
+  width: 300px;
+  text-align: center;
+}
+.background_card {
+  padding: 30px;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
 
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.titre {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: hsl(218, 44%, 22%);
+  font-weight: bold;
 }
