@@ -12,9 +12,20 @@ html, body {
     
 
 }
-
-.background_card 
+.image_qr_code 
 {
     width: 400px;
+    height: auto;
+}
+.background_card 
+{
     background-color: hsl(212, 45%, 89%);
+    width: 450px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
