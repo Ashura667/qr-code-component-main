@@ -9,13 +9,13 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: hsl(220, 15%, 55%);
+  background-color: hsl(212, 45%, 89%);
   height: 100%;
 }
 .image_qr_code {
-  width: 400px;
+  width: 300px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 30px;
   margin-bottom: 30px;
 }
 .text_ajustment {
@@ -24,19 +24,25 @@ body {
 }
 .background_card {
   padding: 30px;
-  background-color: hsl(212, 45%, 89%);
+  padding-top: 20px;
+  background-color: hsl(0, 0%, 100%);
   display: flex;
-
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 .titre {
   font-family: "Outfit", sans-serif;
-  text-align: center;
-  font-size: 30px;
+  font-size: 25px;
+  margin-bottom: 10px;
   color: hsl(218, 44%, 22%);
   font-weight: bold;
+}
+.subtitle 
+{
+    margin-top: 30px;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
 }
